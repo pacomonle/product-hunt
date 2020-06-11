@@ -7,11 +7,11 @@ const Heading = styled.h1`
   color: red;
 `;
 
-export default function Home() {
+export default function Nosotros() {
   return (
     <div>
       <Layout>
-        <Heading>Inicio</Heading>
+        <Heading>Nosotros</Heading>
       </Layout>
     </div>
   );
