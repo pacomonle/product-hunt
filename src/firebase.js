@@ -23,4 +23,4 @@ import 'firebase/firebase-functions'
   const auth = firebase.auth()
   const functions = firebase.functions()
 
-  export {db, auth, functions,firebase}
+  export {db, auth, functions, firebase}
