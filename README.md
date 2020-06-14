@@ -1,4 +1,10 @@
 
+  git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
 npm i firebase
 
 firebase login
