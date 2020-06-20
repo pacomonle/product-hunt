@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import { css } from '@emotion/core';
 import Router from 'next/router';
-import Layout from '../components/layout/Layout';
+
+import { css } from '@emotion/core';
 import { Formulario, Campo, InputSubmit, Error } from '../components/ui/Formulario';
-
-import firebase from '../firebase';
-
 // validaciones
 import useValidacion from '../hooks/useValidacion';
 import validarIniciarSesion from '../validacion/validarIniciarSesion';
+import Layout from '../components/layout/Layout';
+
+import firebase from '../firebase';
+
+
 
 const STATE_INICIAL = {
   email: '',

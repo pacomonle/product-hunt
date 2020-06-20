@@ -1,11 +1,14 @@
 import React, { useContext } from 'react';
+import { FirebaseContext } from '../../firebase';
+// importar router
 import Link from 'next/link';
+
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import Buscar from '../ui/Buscar';
 import Navegacion from './Navegacion';
 import Boton from '../ui/Boton';
-import { FirebaseContext } from '../../firebase';
+
 
 const ContenedorHeader = styled.div`
     max-width: 1200px;
